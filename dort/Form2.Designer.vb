@@ -386,9 +386,10 @@ Partial Class Form2
         '
         'p1
         '
-        Me.p1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p1.BackColor = System.Drawing.Color.White
         Me.p1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p1.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p1.Location = New System.Drawing.Point(77, 9)
         Me.p1.Name = "p1"
         Me.p1.Size = New System.Drawing.Size(50, 25)
@@ -399,9 +400,10 @@ Partial Class Form2
         '
         'p2
         '
-        Me.p2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p2.BackColor = System.Drawing.Color.White
         Me.p2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p2.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p2.Location = New System.Drawing.Point(77, 34)
         Me.p2.Name = "p2"
         Me.p2.Size = New System.Drawing.Size(50, 25)
@@ -412,9 +414,10 @@ Partial Class Form2
         '
         'p3
         '
-        Me.p3.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p3.BackColor = System.Drawing.Color.White
         Me.p3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p3.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p3.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p3.Location = New System.Drawing.Point(77, 59)
         Me.p3.Name = "p3"
         Me.p3.Size = New System.Drawing.Size(50, 25)
@@ -425,9 +428,10 @@ Partial Class Form2
         '
         'p4
         '
-        Me.p4.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p4.BackColor = System.Drawing.Color.White
         Me.p4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p4.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p4.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p4.Location = New System.Drawing.Point(77, 84)
         Me.p4.Name = "p4"
         Me.p4.Size = New System.Drawing.Size(50, 25)
@@ -438,9 +442,10 @@ Partial Class Form2
         '
         'p5
         '
-        Me.p5.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p5.BackColor = System.Drawing.Color.White
         Me.p5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p5.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p5.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p5.Location = New System.Drawing.Point(77, 857)
         Me.p5.Name = "p5"
         Me.p5.Size = New System.Drawing.Size(50, 25)
@@ -451,9 +456,10 @@ Partial Class Form2
         '
         'p6
         '
-        Me.p6.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p6.BackColor = System.Drawing.Color.White
         Me.p6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p6.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p6.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p6.Location = New System.Drawing.Point(77, 882)
         Me.p6.Name = "p6"
         Me.p6.Size = New System.Drawing.Size(50, 25)
@@ -464,9 +470,10 @@ Partial Class Form2
         '
         'p7
         '
-        Me.p7.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p7.BackColor = System.Drawing.Color.White
         Me.p7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p7.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p7.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p7.Location = New System.Drawing.Point(77, 907)
         Me.p7.Name = "p7"
         Me.p7.Size = New System.Drawing.Size(50, 25)
@@ -477,9 +484,10 @@ Partial Class Form2
         '
         'p8
         '
-        Me.p8.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.p8.BackColor = System.Drawing.Color.White
         Me.p8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.p8.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.p8.ForeColor = System.Drawing.SystemColors.ControlText
         Me.p8.Location = New System.Drawing.Point(77, 932)
         Me.p8.Name = "p8"
         Me.p8.Size = New System.Drawing.Size(50, 25)
