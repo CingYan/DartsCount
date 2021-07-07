@@ -6,90 +6,16 @@
     Dim c As Integer = 1 '局數
     Dim d As String = 0 '局間分數暫存
     Dim i As Integer = 1 '玩家計數
+    Dim x As Integer
     Public peo As Integer = Form1.peo '從form1接收人數
+
     Private Sub Form2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Select Case peo
-            Case 1
-                p1.Visible = True
-                Label1.Visible = True
-            Case 2
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-            Case 3
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-            Case 4
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-                p4.Visible = True
-                Label4.Visible = True
-            Case 5
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-                p4.Visible = True
-                Label4.Visible = True
-                p5.Visible = True
-                Label5.Visible = True
-            Case 6
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-                p4.Visible = True
-                Label4.Visible = True
-                p5.Visible = True
-                Label5.Visible = True
-                p6.Visible = True
-                Label6.Visible = True
-            Case 7
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-                p4.Visible = True
-                Label4.Visible = True
-                p5.Visible = True
-                Label5.Visible = True
-                p6.Visible = True
-                Label6.Visible = True
-                p7.Visible = True
-                Label7.Visible = True
-            Case 8
-                p1.Visible = True
-                Label1.Visible = True
-                p2.Visible = True
-                Label2.Visible = True
-                p3.Visible = True
-                Label3.Visible = True
-                p4.Visible = True
-                Label4.Visible = True
-                p5.Visible = True
-                Label5.Visible = True
-                p6.Visible = True
-                Label6.Visible = True
-                p7.Visible = True
-                Label7.Visible = True
-                p8.Visible = True
-                Label8.Visible = True
-        End Select
+        Dim playerlab As Label() = {p1, p2, p3, p4, p5, p6, p7, p8}
+        Dim playerSc As Label() = {Label1, Label2, Label3, Label4, Label5, Label6, Label7, Label8}
+        For x = 0 To peo - 1
+            playerlab(x).Visible = 1
+            playerSc(x).Visible = 1
+        Next
         Timer1.Enabled = True
         MsgBox("靶上的按鈕顯示完之前切莫操作，避免出問題", 0, "飛鏢計分程式")
     End Sub
