@@ -31,7 +31,8 @@
     Private Sub SetupDartButtons()
         ' 格式: "分數,顯示名稱"
         Dim dartMap As Dictionary(Of Button, String) = New Dictionary(Of Button, String) From {
-            {Bull, "50,Bull"},
+            {Bull, "50,D-Bull"},
+            {SBull, "25,S-Bull"},
             {s1one, "1,S1"}, {s1two, "1,S1"}, {d1, "2,D1"}, {t1, "3,T1"},
             {s2one, "2,S2"}, {s2two, "2,S2"}, {d2, "4,D2"}, {t2, "6,T2"},
             {s3one, "3,S3"}, {s3two, "3,S3"}, {d3, "6,D3"}, {t3, "9,T3"},
@@ -65,6 +66,9 @@
     ''' 所有飛鏢按鈕共用的 Click Handler
     ''' </summary>
     Private Sub DartButton_Click(ByVal sender As Object, ByVal e As EventArgs)
+        ' 防止快速點擊超過三鏢
+        If a >= 3 Then Return
+
         Dim btn As Button = DirectCast(sender, Button)
         Dim parts() As String = btn.Tag.ToString().Split(","c)
         Dim score As Integer = CInt(parts(0))

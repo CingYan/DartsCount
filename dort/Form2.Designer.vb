@@ -25,6 +25,7 @@ Partial Class Form2
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Bull = New System.Windows.Forms.Button()
+        Me.SBull = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.s11one = New System.Windows.Forms.Button()
         Me.t11 = New System.Windows.Forms.Button()
@@ -137,6 +138,15 @@ Partial Class Form2
         Me.Bull.TabIndex = 0
         Me.Bull.Text = "Bull"
         Me.Bull.UseVisualStyleBackColor = True
+        '
+        'SBull
+        '
+        Me.SBull.Location = New System.Drawing.Point(398, 498)
+        Me.SBull.Name = "SBull"
+        Me.SBull.Size = New System.Drawing.Size(34, 23)
+        Me.SBull.TabIndex = 101
+        Me.SBull.Text = "S-B"
+        Me.SBull.UseVisualStyleBackColor = True
         '
         'Timer1
         '
@@ -1185,6 +1195,7 @@ Partial Class Form2
         Me.Controls.Add(Me.s11two)
         Me.Controls.Add(Me.t11)
         Me.Controls.Add(Me.s11one)
+        Me.Controls.Add(Me.SBull)
         Me.Controls.Add(Me.Bull)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -1195,6 +1206,7 @@ Partial Class Form2
 
     End Sub
     Friend WithEvents Bull As System.Windows.Forms.Button
+    Friend WithEvents SBull As System.Windows.Forms.Button
     Friend WithEvents s11one As System.Windows.Forms.Button
     Friend WithEvents t11 As System.Windows.Forms.Button
     Friend WithEvents s11two As System.Windows.Forms.Button
